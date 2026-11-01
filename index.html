@@ -1,0 +1,104 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pensá antes de escanear</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="manifest" href="manifest.json">
+
+    <meta name="theme-color" content="#101820">
+</head>
+<body>
+
+    <header>
+        <h2>QR SEGURO</h2>
+        <nav>
+            <a href="#inicio">Inicio</a>
+            <a href="#peligros">Peligros</a>
+            <a href="#consejos">Consejos</a>
+            <a href="#video">Video</a>
+        </nav>
+    </header>
+
+    <section id="inicio" class="portada">
+        <h1>¿ESCANEARÍAS ESTE QR SIN SABER A DÓNDE TE LLEVA?</h1>
+
+        <p>
+            Un simple escaneo puede poner en riesgo
+            tu información personal.
+        </p>
+
+        <a href="#peligros" class="boton">DESCUBRÍ LOS PELIGROS</a>
+    </section>
+
+    <section id="peligros">
+        <h2>¿QUÉ PELIGROS ESCONDE UN QR?</h2>
+
+        <div class="contenedor">
+
+            <div class="caja">
+                <h3>🔴 Páginas falsas</h3>
+                <p>Pueden llevarte a sitios que intentan robar tus datos.</p>
+            </div>
+
+            <div class="caja">
+                <h3>🦠 Virus y malware</h3>
+                <p>Pueden dirigir a descargas peligrosas.</p>
+            </div>
+
+            <div class="caja">
+                <h3>🔐 Robo de información</h3>
+                <p>Pueden intentar obtener tus contraseñas y datos personales.</p>
+            </div>
+
+            <div class="caja">
+                <h3>⚠️ QR modificados</h3>
+                <p>Alguien puede pegar un código falso encima de uno verdadero.</p>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="consejos">
+        <h2>¿CÓMO PROTEGERTE?</h2>
+
+        <ul>
+            <li>No escanees códigos QR desconocidos.</li>
+            <li>Revisá el enlace antes de abrirlo.</li>
+            <li>No ingreses contraseñas en páginas sospechosas.</li>
+            <li>No descargues archivos de sitios desconocidos.</li>
+            <li>Desconfiá de códigos QR pegados en lugares públicos.</li>
+        </ul>
+    </section>
+
+    
+<section id="video">
+    <h2>REFLEXIONÁ ANTES DE ESCANEAR</h2>
+
+    <p>
+        Nunca escanees códigos QR desconocidos.
+        Reflexioná un poco y tené cuidado.
+    </p>
+
+    <div class="game-over">
+        <h1>ERROR</h1>
+        <h2>VIDEO NO ENCONTRADO</h2>
+        <p>Ten cuidado...</p>
+    </div>
+</section>
+
+    <section class="final">
+        <h2>¡TU SEGURIDAD TAMBIÉN DEPENDE DE VOS!</h2>
+        <p>Un segundo de precaución puede evitar muchos problemas.</p>
+
+        <button id="botonAlerta">¿QUÉ DEBO RECORDAR?</button>
+        <p id="mensaje"></p>
+    </section>
+
+    <script src="app.js"></script>
+
+</body>
+</html>

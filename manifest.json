@@ -1,0 +1,11 @@
+
+{
+    "name": "Pensá antes de escanear",
+    "short_name": "QR Seguro",
+    "description": "Consejos para evitar los peligros de los códigos QR desconocidos.",
+    "start_url": "./index.html",
+    "display": "standalone",
+    "background_color": "#101820",
+    "theme_color": "#101820",
+    "lang": "es"
+}
